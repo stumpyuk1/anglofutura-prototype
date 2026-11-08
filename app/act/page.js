@@ -92,6 +92,40 @@ export default function Act() {
             hello@build-on.org.uk
           </a>
         </div>
+
+        <div className="border border-white/10 p-6 rounded">
+          <h3 className="text-xl font-bold text-amber mb-3">6. Track outcomes and name the cost</h3>
+          <p className="text-steel mb-4">
+            Approvals and refusals are public. Record them. The veto is strongest when its consequences stay invisible.
+          </p>
+          <ul className="text-steel space-y-2 list-disc list-inside mb-3">
+            <li>Note the date, scheme, and decision for every application you support or watch.</li>
+            <li>When a scheme is refused, calculate or estimate the homes not built and the years of delay.</li>
+            <li>Publish short local summaries: “This ward refused X homes this year. Average rent is Y% of under-40 take-home.”</li>
+            <li>Keep a simple shared list (spreadsheet or group chat) so patterns become obvious to others.</li>
+            <li>Contrast the refusal with the classical-modern alternative that could have been built instead.</li>
+          </ul>
+          <p className="text-steel">
+            Making the cost visible is how the veto loses legitimacy.
+          </p>
+        </div>
+
+        <div className="border border-white/10 p-6 rounded">
+          <h3 className="text-xl font-bold text-amber mb-3">7. Recruit one other person</h3>
+          <p className="text-steel mb-4">
+            One committed commenter or committee attendee multiplies. The under-40 renter cohort is large but unorganised. Start small.
+          </p>
+          <ul className="text-steel space-y-2 list-disc list-inside mb-3">
+            <li>Send the Build On map link to one person who is currently renting or locked out.</li>
+            <li>Offer to draft a first representation with them using the toolkit.</li>
+            <li>Invite them to a single committee meeting. Presence is easier than speaking.</li>
+            <li>Share one concrete local number (rent share, deposit years, or homes refused) so the issue feels immediate.</li>
+            <li>If they engage, introduce them to hello@build-on.org.uk or a local group chat.</li>
+          </ul>
+          <p className="text-steel">
+            Movement grows by repeated low-friction recruitment, not by waiting for a perfect organisation.
+          </p>
+        </div>
       </div>
 
       {/* Stay informed */}
