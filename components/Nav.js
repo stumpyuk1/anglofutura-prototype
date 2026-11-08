@@ -13,6 +13,8 @@ export default function Nav() {
     { href: '/defend', label: 'Defend' },
     { href: '/vision', label: 'Vision' },
     { href: '/act', label: 'Act' },
+    { href: '/blog', label: 'Blog' },
+    { href: '/get-involved', label: 'Get Involved' },
     { href: '/about', label: 'About' },
   ];
 
