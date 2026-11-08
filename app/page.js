@@ -5,7 +5,9 @@ export default function Home() {
     <div>
       {/* Hero */}
       <section className="relative min-h-screen flex items-center bg-navy overflow-hidden pt-20">
-        <div className="absolute inset-0 opacity-20 bg-gradient-to-br from-amber/30 via-navy to-copper/20"></div>
+        {/* Stronger copper glow top-right */}
+        <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy/90 to-copper/60"></div>
+        <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-gradient-to-bl from-copper/40 via-amber/20 to-transparent opacity-80"></div>
         <div className="relative max-w-6xl mx-auto px-4 py-24">
           <p className="text-amber text-sm tracking-widest uppercase mb-6">Build. Power. Defend.</p>
           <h1 className="text-6xl md:text-8xl font-extrabold leading-none mb-8 text-white">
