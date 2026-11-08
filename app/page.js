@@ -5,9 +5,14 @@ export default function Home() {
     <div>
       {/* Hero */}
       <section className="relative min-h-screen flex items-center bg-navy overflow-hidden pt-20">
-        {/* Stronger copper glow top-right */}
-        <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy/90 to-copper/60"></div>
-        <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-gradient-to-bl from-copper/40 via-amber/20 to-transparent opacity-80"></div>
+        {/* Smooth blended copper glow from top-right */}
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              'radial-gradient(ellipse 80% 60% at 85% 15%, rgba(196, 88, 43, 0.45) 0%, rgba(224, 139, 46, 0.15) 35%, rgba(10, 19, 31, 0) 70%)',
+          }}
+        ></div>
         <div className="relative max-w-6xl mx-auto px-4 py-24">
           <p className="text-amber text-sm tracking-widest uppercase mb-6">Build. Power. Defend.</p>
           <h1 className="text-6xl md:text-8xl font-extrabold leading-none mb-8 text-white">
