@@ -6,18 +6,18 @@ export default function Home() {
       {/* Hero */}
       <section className="relative min-h-screen flex items-center bg-navy overflow-hidden pt-20">
         <div
-          className="absolute inset-0 opacity-30"
+          className="absolute inset-0 opacity-40"
           style={{
-            backgroundImage: "url('/images/MC1ms.jpg')",
+            backgroundImage: "url('/images/hero-scaffolded-terrace.jpg')",
             backgroundSize: 'cover',
-            backgroundPosition: 'center right',
+            backgroundPosition: 'center',
           }}
         ></div>
         <div
           className="absolute inset-0"
           style={{
             background:
-              'radial-gradient(ellipse 80% 60% at 85% 15%, rgba(196, 88, 43, 0.4) 0%, rgba(224, 139, 46, 0.1) 35%, rgba(10, 19, 31, 0.9) 70%)',
+              'linear-gradient(to right, rgba(10, 19, 31, 0.92) 0%, rgba(10, 19, 31, 0.6) 50%, rgba(10, 19, 31, 0.3) 100%)',
           }}
         ></div>
         <div className="relative max-w-6xl mx-auto px-4 py-24">
