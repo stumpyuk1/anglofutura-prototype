@@ -68,8 +68,18 @@ export default function Act() {
 
         <div className="border border-white/10 p-6 rounded">
           <h3 className="text-xl font-bold text-amber mb-3">4. Make building high-status</h3>
+          <p className="text-steel mb-4">
+            The veto class wins culturally when opposition looks normal and building looks greedy or low-quality. Reverse that. Treat well-designed construction as a civilisational good and the organised block as an extraction of the young.
+          </p>
+          <ul className="text-steel space-y-2 list-disc list-inside mb-3">
+            <li>Share completed or proposed classical-modern terraces and family homes, not just abstract “housing units.”</li>
+            <li>Contrast damp HMOs, box rooms, and temporary accommodation with permanent streets that work.</li>
+            <li>Post the numbers: local housing shortfall, rents as a share of under-40 income, years to save a deposit.</li>
+            <li>When a good scheme is approved, say so publicly. When a bad veto wins, name the cost in homes not built.</li>
+            <li>Use the language of competence and permanence rather than “development” or “units.”</li>
+          </ul>
           <p className="text-steel">
-            Share good schemes. Contrast squalid temporary housing with the classical-modern alternative. The goal is cultural: make the veto look ridiculous and construction look like common sense.
+            The goal is cultural: make the veto look ridiculous and construction look like common sense.
           </p>
         </div>
 
