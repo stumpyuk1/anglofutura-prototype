@@ -84,17 +84,55 @@ export default function Act() {
         </div>
 
         <div className="border border-white/10 p-6 rounded">
-          <h3 className="text-xl font-bold text-amber mb-3">5. Connect locally</h3>
+          <h3 className="text-xl font-bold text-amber mb-3">5. Join Build On</h3>
           <p className="text-steel mb-3">
-            University towns, tech corridors, and high-renter areas are the natural base. Find others who want more homes and infrastructure. Coordinate comments and committee attendance.
+            Sign up for occasional updates on new tools, major applications, and local activity. You can also register interest in forming or joining a local group.
           </p>
-          <a href="mailto:hello@build-on.org.uk" className="text-amber hover:underline">
-            hello@build-on.org.uk
+          <a
+            href="https://www.build-on.org.uk/join"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-amber font-bold hover:underline"
+          >
+            Join Build On →
           </a>
         </div>
 
         <div className="border border-white/10 p-6 rounded">
-          <h3 className="text-xl font-bold text-amber mb-3">6. Track outcomes and name the cost</h3>
+          <h3 className="text-xl font-bold text-amber mb-3">6. Share with local housing groups</h3>
+          <p className="text-steel mb-4">
+            Renters’ groups, university housing campaigns, young professional networks, and key-worker associations already talk about the problem. Give them a practical outlet.
+          </p>
+          <ul className="text-steel space-y-2 list-disc list-inside mb-3">
+            <li>Send the Build On map and Join page to any local renters’ or housing WhatsApp, Discord, or Facebook group.</li>
+            <li>Offer to draft a short group comment on a specific live scheme using the toolkit.</li>
+            <li>Ask the group to post one concrete local number (rent share or homes refused) alongside the link.</li>
+            <li>Suggest a single committee meeting as a low-commitment first action.</li>
+          </ul>
+          <p className="text-steel">
+            Organised support is rare. A group that already exists is the fastest multiplier.
+          </p>
+        </div>
+
+        <div className="border border-white/10 p-6 rounded">
+          <h3 className="text-xl font-bold text-amber mb-3">7. Write the letter to one locked-out renter</h3>
+          <p className="text-steel mb-4">
+            One personal note multiplies more than a public post. Choose someone currently renting or locked out of ownership and send them a short, specific message.
+          </p>
+          <ul className="text-steel space-y-2 list-disc list-inside mb-3">
+            <li>Name one live scheme near them (or a recent refusal) and the homes it would have added.</li>
+            <li>Include the local rent-to-income or deposit-years figure so it feels immediate.</li>
+            <li>Link the Build On map and the toolkit, and offer to draft the representation with them.</li>
+            <li>Invite them to one committee meeting — presence only, no speaking required.</li>
+            <li>If they reply, introduce them to the Join page or hello@build-on.org.uk.</li>
+          </ul>
+          <p className="text-steel">
+            Movement grows by repeated low-friction recruitment, not by waiting for a perfect organisation.
+          </p>
+        </div>
+
+        <div className="border border-white/10 p-6 rounded">
+          <h3 className="text-xl font-bold text-amber mb-3">8. Track outcomes and name the cost</h3>
           <p className="text-steel mb-4">
             Approvals and refusals are public. Record them. The veto is strongest when its consequences stay invisible.
           </p>
@@ -107,23 +145,6 @@ export default function Act() {
           </ul>
           <p className="text-steel">
             Making the cost visible is how the veto loses legitimacy.
-          </p>
-        </div>
-
-        <div className="border border-white/10 p-6 rounded">
-          <h3 className="text-xl font-bold text-amber mb-3">7. Recruit one other person</h3>
-          <p className="text-steel mb-4">
-            One committed commenter or committee attendee multiplies. The under-40 renter cohort is large but unorganised. Start small.
-          </p>
-          <ul className="text-steel space-y-2 list-disc list-inside mb-3">
-            <li>Send the Build On map link to one person who is currently renting or locked out.</li>
-            <li>Offer to draft a first representation with them using the toolkit.</li>
-            <li>Invite them to a single committee meeting. Presence is easier than speaking.</li>
-            <li>Share one concrete local number (rent share, deposit years, or homes refused) so the issue feels immediate.</li>
-            <li>If they engage, introduce them to hello@build-on.org.uk or a local group chat.</li>
-          </ul>
-          <p className="text-steel">
-            Movement grows by repeated low-friction recruitment, not by waiting for a perfect organisation.
           </p>
         </div>
       </div>
