@@ -68,8 +68,11 @@ export default function Evidence() {
 
       <div className="bg-navy p-6 rounded border border-white/10">
         <h2 className="text-2xl font-bold mb-3">Start with a live scheme</h2>
-        <p className="text-steel mb-4">
+        <p className="text-steel mb-3">
           You can support any undecided scheme in Great Britain — it does not have to be near you. Open the Build On map, pick one well-designed application anywhere in the country, fill the housing template, and share it. National capacity is built one site at a time.
+        </p>
+        <p className="text-steel text-sm mb-4">
+          The Build On map shows larger undecided housing applications across England with direct links to the relevant council portals. Anyone in Great Britain can submit a representation on any scheme; you do not need to live in the local area.
         </p>
         <a
           href="https://www.build-on.org.uk/map"
