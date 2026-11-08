@@ -6,10 +6,18 @@ export default function Home() {
       {/* Hero */}
       <section className="relative min-h-screen flex items-center bg-navy overflow-hidden pt-20">
         <div
+          className="absolute inset-0 opacity-30"
+          style={{
+            backgroundImage: "url('/images/MC1ms.jpg')",
+            backgroundSize: 'cover',
+            backgroundPosition: 'center right',
+          }}
+        ></div>
+        <div
           className="absolute inset-0"
           style={{
             background:
-              'radial-gradient(ellipse 80% 60% at 85% 15%, rgba(196, 88, 43, 0.45) 0%, rgba(224, 139, 46, 0.15) 35%, rgba(10, 19, 31, 0) 70%)',
+              'radial-gradient(ellipse 80% 60% at 85% 15%, rgba(196, 88, 43, 0.4) 0%, rgba(224, 139, 46, 0.1) 35%, rgba(10, 19, 31, 0.9) 70%)',
           }}
         ></div>
         <div className="relative max-w-6xl mx-auto px-4 py-24">
@@ -48,25 +56,34 @@ export default function Home() {
         </p>
       </section>
 
-      {/* Pillars */}
+      {/* Pillars with images */}
       <section className="bg-navy py-20">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-center">The three pillars</h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="border border-white/10 p-6 rounded">
-              <h3 className="text-2xl font-bold text-amber mb-3">Build</h3>
-              <p className="text-steel">Immediate statutory planning rights for starter homes and high-density family terraces. High-quality classical modern architecture, not rabbit hutches.</p>
-              <Link href="/build" className="inline-block mt-4 text-amber hover:underline">Explore →</Link>
+            <div className="border border-white/10 rounded overflow-hidden">
+              <img src="/images/bED3n.jpg" alt="Construction" className="w-full h-48 object-cover" />
+              <div className="p-6">
+                <h3 className="text-2xl font-bold text-amber mb-3">Build</h3>
+                <p className="text-steel">Immediate statutory planning rights for starter homes and high-density family terraces. High-quality classical modern architecture, not rabbit hutches.</p>
+                <Link href="/build" className="inline-block mt-4 text-amber hover:underline">Explore →</Link>
+              </div>
             </div>
-            <div className="border border-white/10 p-6 rounded">
-              <h3 className="text-2xl font-bold text-amber mb-3">Power</h3>
-              <p className="text-steel">Abundant, cheap, domestic base-load nuclear and gas. End the grid connection queues that strangle industry.</p>
-              <Link href="/power" className="inline-block mt-4 text-amber hover:underline">Explore →</Link>
+            <div className="border border-white/10 rounded overflow-hidden">
+              <img src="/images/Xl4VB.jpg" alt="Power" className="w-full h-48 object-cover" />
+              <div className="p-6">
+                <h3 className="text-2xl font-bold text-amber mb-3">Power</h3>
+                <p className="text-steel">Abundant, cheap, domestic base-load nuclear and gas. End the grid connection queues that strangle industry.</p>
+                <Link href="/power" className="inline-block mt-4 text-amber hover:underline">Explore →</Link>
+              </div>
             </div>
-            <div className="border border-white/10 p-6 rounded">
-              <h3 className="text-2xl font-bold text-amber mb-3">Defend</h3>
-              <p className="text-steel">End the taxpayer-funded legal aid and NGO compliance loops that stall national development. Defend the capacity of the nation to act.</p>
-              <Link href="/defend" className="inline-block mt-4 text-amber hover:underline">Explore →</Link>
+            <div className="border border-white/10 rounded overflow-hidden">
+              <img src="/images/z3Ms2.jpg" alt="Defend" className="w-full h-48 object-cover" />
+              <div className="p-6">
+                <h3 className="text-2xl font-bold text-amber mb-3">Defend</h3>
+                <p className="text-steel">End the taxpayer-funded legal aid and NGO compliance loops that stall national development. Defend the capacity of the nation to act.</p>
+                <Link href="/defend" className="inline-block mt-4 text-amber hover:underline">Explore →</Link>
+              </div>
             </div>
           </div>
         </div>
@@ -75,6 +92,7 @@ export default function Home() {
       {/* Vision teaser */}
       <section className="max-w-6xl mx-auto px-4 py-20">
         <h2 className="text-3xl font-bold mb-6">A Britain that builds again</h2>
+        <img src="/images/jL81l.jpg" alt="Vision" className="w-full max-w-3xl mb-8 rounded" />
         <p className="text-lg text-steel max-w-3xl mb-8">
           A Britain that builds again is a Britain where young people can own a house, energy is cheap enough to reindustrialise, and the civilisational toolbox (law, empiricism, institutions that outlast a ministry) is used on purpose. Not a museum. A laboratory and a foundry.
         </p>
