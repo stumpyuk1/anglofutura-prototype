@@ -35,6 +35,17 @@ export default function Act() {
         </div>
       </div>
 
+      {/* Scorecard callout */}
+      <div className="bg-navy p-6 rounded border border-white/10 mb-12">
+        <h2 className="text-2xl font-bold mb-3">Candidate scorecard</h2>
+        <p className="text-steel mb-4">
+          Ask councillors and parliamentary candidates three short questions on Build, Power, and Defend. Score the answers. Share the results locally.
+        </p>
+        <Link href="/scorecard" className="text-amber font-bold hover:underline">
+          Open the canvassing pack →
+        </Link>
+      </div>
+
       {/* How to act locally sections */}
       <h2 className="text-3xl font-bold mb-6">See how to act locally</h2>
 
@@ -156,7 +167,7 @@ export default function Act() {
           Action alerts and intercepts are coming. For now, use Build On for housing schemes and email hello@build-on.org.uk to get involved.
         </p>
         <p className="text-sm text-steel">
-          A dedicated Anglofutura “Get Involved” form will be added here soon.
+          A dedicated Anglofutura “Get Involved” form is available on the Get Involved page.
         </p>
       </div>
 
