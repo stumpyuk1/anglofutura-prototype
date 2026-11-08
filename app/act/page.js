@@ -35,15 +35,27 @@ export default function Act() {
         </div>
       </div>
 
-      {/* Scorecard callout */}
-      <div className="bg-navy p-6 rounded border border-white/10 mb-12">
-        <h2 className="text-2xl font-bold mb-3">Candidate scorecard</h2>
-        <p className="text-steel mb-4">
-          Ask councillors and parliamentary candidates three short questions on Build, Power, and Defend. Score the answers. Share the results locally.
-        </p>
-        <Link href="/scorecard" className="text-amber font-bold hover:underline">
-          Open the canvassing pack →
-        </Link>
+      {/* Tools row */}
+      <div className="grid md:grid-cols-2 gap-6 mb-12">
+        <div className="bg-navy p-6 rounded border border-white/10">
+          <h2 className="text-2xl font-bold mb-3">Candidate scorecard</h2>
+          <p className="text-steel mb-4">
+            Ask councillors and parliamentary candidates three short questions on Build, Power, and Defend. Score the answers. Share the results locally.
+          </p>
+          <Link href="/scorecard" className="text-amber font-bold hover:underline">
+            Open the canvassing pack →
+          </Link>
+        </div>
+
+        <div className="bg-navy p-6 rounded border border-white/10">
+          <h2 className="text-2xl font-bold mb-3">Map + evidence packs</h2>
+          <p className="text-steel mb-4">
+            Short factual one-pagers for specific sites. Show the homes or capacity a scheme would deliver, then drop them into local groups.
+          </p>
+          <Link href="/evidence" className="text-amber font-bold hover:underline">
+            Open the evidence packs →
+          </Link>
+        </div>
       </div>
 
       {/* How to act locally sections */}

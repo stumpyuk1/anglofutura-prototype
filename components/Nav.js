@@ -14,6 +14,7 @@ export default function Nav() {
     { href: '/vision', label: 'Vision' },
     { href: '/act', label: 'Act' },
     { href: '/scorecard', label: 'Scorecard' },
+    { href: '/evidence', label: 'Evidence' },
     { href: '/blog', label: 'Blog' },
     { href: '/get-involved', label: 'Get Involved' },
     { href: '/about', label: 'About' },
