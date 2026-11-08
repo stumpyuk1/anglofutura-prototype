@@ -4,14 +4,14 @@ export default function Home() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative min-h-[80vh] flex items-center bg-navy overflow-hidden">
-        <div className="absolute inset-0 opacity-10 bg-gradient-to-br from-amber/20 via-transparent to-copper/10"></div>
-        <div className="relative max-w-6xl mx-auto px-4 py-20">
-          <p className="text-amber text-sm tracking-widest uppercase mb-4">Build. Power. Defend.</p>
-          <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
+      <section className="relative min-h-screen flex items-center bg-navy overflow-hidden pt-20">
+        <div className="absolute inset-0 opacity-20 bg-gradient-to-br from-amber/30 via-navy to-copper/20"></div>
+        <div className="relative max-w-6xl mx-auto px-4 py-24">
+          <p className="text-amber text-sm tracking-widest uppercase mb-6">Build. Power. Defend.</p>
+          <h1 className="text-6xl md:text-8xl font-extrabold leading-none mb-8 text-white">
             BUILD.<br />POWER.<br />DEFEND.
           </h1>
-          <p className="text-xl md:text-2xl max-w-2xl text-steel mb-8">
+          <p className="text-xl md:text-2xl max-w-2xl text-steel mb-10">
             Britain is not short of land, energy, or talent. It is short of permission. A generation is trapped paying half its income for a damp room while the veto class blocks the houses, reactors, and railways that would make a life possible.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
